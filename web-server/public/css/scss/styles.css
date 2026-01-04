@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "StarBorn";
+  src: url("/fonts/starborn/Starborn.ttf") format("truetype");
+  font-display: normal;
+}
+body {
+  background-color: #fbe5f2;
+  font-family: "StarBorn", sans-serif;
+  color: #a28172;
+  margin: 150px 400px;
+  padding: 0 16px;
+  text-align: center;
+  align-items: center;
+  background-image: url("/img/clouds.png");
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #7fa6c8;
+  text-decoration: none;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin: auto 20px;
+}
+
+.portrait {
+  width: 250px;
+  border-radius: 50%;
+}
+
+form {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+  background-color: #fbebdc;
+  border-radius: 5px;
+  max-width: 400px;
+  font-size: 17px;
+  font-family: "StarBorn";
+}
+
+button {
+  font-size: 17px;
+  background-color: #7fa6c8;
+  border: #a28172 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "StarBorn";
+}/*# sourceMappingURL=styles.css.map */

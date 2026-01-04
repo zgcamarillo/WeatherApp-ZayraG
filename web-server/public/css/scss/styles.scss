@@ -1,0 +1,65 @@
+$background-color: #fbe5f2;
+$pink-shadow: #fcc7e1;
+$light-brown: #fbebdc;
+$text-color: #a28172;
+$blue: #7fa6c8;
+
+
+@font-face {
+  font-family: "StarBorn";
+  src: url('/fonts/starborn/Starborn.ttf') format('truetype');
+  font-display: normal;
+}
+
+body {
+  background-color: $background-color;
+  font-family: "StarBorn", sans-serif;
+  color: $text-color;
+  margin: 150px 400px;
+  padding: 0 16px;
+  text-align: center;
+  align-items: center;
+  background-image: url('/img/clouds.png');
+}
+header {
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+header a {
+  color: $blue;
+  text-decoration: none;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin: auto 20px;
+
+}
+.portrait {
+  width: 250px;
+  border-radius: 50%;
+}
+form {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+input {
+  padding: 5px;
+  background-color: $light-brown;
+  border-radius: 5px;
+  max-width: 400px;
+  font-size: 17px;
+  font-family: "StarBorn";
+}
+button {
+  font-size: 17px;
+  background-color: $blue;
+  border: $text-color 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "StarBorn";
+}
